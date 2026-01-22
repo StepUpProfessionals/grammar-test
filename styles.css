@@ -11,6 +11,9 @@
   /* Contraste vivo para acciones */
   --btn:#0f4c81;      /* azul vivo elegante */
   --btnHover:#0c3e69; /* hover un poco más oscuro */
+  --accent: var(--btn);
+  --accent2: #00a6a6;
+
 }
 
 
@@ -51,8 +54,8 @@ body{
 .progress{
   width:100%;
   height:10px;
-  background: rgba(255,255,255,.06);
-  border:1px solid rgba(255,255,255,.08);
+  background:#eef2f7;
+  border:1px solid var(--border);
   border-radius:999px;
   overflow:hidden;
 }
