@@ -1,11 +1,18 @@
 :root{
   --bg:#f6f8fb;
   --card:#ffffff;
-  --text:#0f172a;
-  --muted:#64748b;
+
+  /* Tipografía Navy más suave (no negro) */
+  --text:#0b1f3a;     /* navy oscuro suave */
+  --muted:#5b6b80;
+
   --border:#e2e8f0;
-  --btn:#0b2a4a;
+
+  /* Contraste vivo para acciones */
+  --btn:#0f4c81;      /* azul vivo elegante */
+  --btnHover:#0c3e69; /* hover un poco más oscuro */
 }
+
 
 *{box-sizing:border-box}
 body{
@@ -104,6 +111,12 @@ body{
   border:1px solid var(--border);
   color:var(--text);
 }
+
+/* 👉 ESTA LÍNEA VA AL FINAL */
+.btn:hover{
+  background: var(--btnHover);
+}
+
 
 .hidden{display:none}
 
