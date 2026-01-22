@@ -8,7 +8,7 @@
       "question": "She ____ to work every day.",
       "options": ["go", "goes", "going", "gone"],
       "answerIndex": 1,
-      "hint": "Presente simple — tercera persona."
+      "_comment": "Presente simple — tercera persona."
     },
     {
       "id": 2,
@@ -17,7 +17,7 @@
       "question": "I ____ this movie before.",
       "options": ["see", "saw", "have seen", "am seeing"],
       "answerIndex": 2,
-      "hint": "Presente perfecto para experiencia."
+      "_comment": "Presente perfecto para experiencia."
     },
     {
       "id": 3,
@@ -26,7 +26,7 @@
       "question": "If it ____ tomorrow, we will stay home.",
       "options": ["rains", "rained", "will rain", "rain"],
       "answerIndex": 0,
-      "hint": "First conditional: If + present, will + base."
+      "_comment": "First conditional: If + present, will + base."
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
       "question": "There ____ many people at the meeting.",
       "options": ["was", "were", "is", "be"],
       "answerIndex": 1,
-      "hint": "Pasado de 'to be' plural."
+      "_comment": "Pasado de 'to be' plural."
     },
     {
       "id": 5,
@@ -44,7 +44,7 @@
       "question": "He’s the person ____ helped me.",
       "options": ["which", "who", "where", "what"],
       "answerIndex": 1,
-      "hint": "Relative clause para personas."
+      "_comment": "Relative clause para personas."
     },
     {
       "id": 6,
@@ -53,7 +53,7 @@
       "question": "I don’t have ____ time today.",
       "options": ["many", "much", "a few", "several"],
       "answerIndex": 1,
-      "hint": "Much para incontables."
+      "_comment": "Much para incontables."
     },
     {
       "id": 7,
@@ -62,7 +62,7 @@
       "question": "She ____ dinner when I called.",
       "options": ["cooks", "cooked", "was cooking", "has cooked"],
       "answerIndex": 2,
-      "hint": "Past continuous para acción en progreso."
+      "_comment": "Past continuous para acción en progreso."
     },
     {
       "id": 8,
@@ -80,7 +80,7 @@
       "question": "This is ____ best coffee I’ve ever had.",
       "options": ["a", "an", "the", "— (no article)"],
       "answerIndex": 2,
-      "hint": "Superlativos suelen llevar 'the'."
+      "_comment": "Superlativos suelen llevar 'the'."
     },
     {
       "id": 10,
@@ -89,7 +89,7 @@
       "question": "I wish I ____ more time.",
       "options": ["have", "had", "will have", "am having"],
       "answerIndex": 1,
-      "hint": "Wish sobre presente: pasado simple."
+      "_comment": "Wish sobre presente: pasado simple."
     }
   ]
 }
