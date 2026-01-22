@@ -77,27 +77,28 @@ function score(){
 function routeFromPercent(p){
   // MVP: 3 rutas
   if (p >= 80) {
-    return {
-      title: "Ruta recomendada: Consolidación (Intermedio/Avanzado)",
-      desc: "Tu base gramatical es sólida. Enfócate en precisión, estructuras avanzadas y producción oral/escrita con feedback.",
-      ctaText: "Ir a Recursos de Consolidación",
-      ctaUrl: "https://stepuplanguages.com/centro-de-recursos"
-    };
-  }
-  if (p >= 50) {
-    return {
-      title: "Ruta recomendada: Gramática funcional (Intermedio)",
-      desc: "Tienes una base útil, pero hay vacíos frecuentes. Trabaja tiempos verbales, conectores y estructuras comunes de trabajo.",
-      ctaText: "Ver ruta de Gramática Funcional",
-      ctaUrl: "https://stepuplanguages.com/diagnostico"
-    };
-  }
   return {
-    title: "Ruta recomendada: Fundamentos (Básico)",
-    desc: "Necesitas fortalecer estructuras base (to be, present simple, questions, negatives). Con una ruta guiada progresas rápido.",
-    ctaText: "Agendar una llamada breve",
-    ctaUrl: "https://wa.me/573000000000?text=Hola%2C%20hice%20el%20test%20de%20gram%C3%A1tica%20y%20quiero%20recomendaci%C3%B3n%20de%20ruta."
+    title: "Ruta recomendada: Consolidación (Intermedio/Avanzado)",
+    desc: "Su base gramatical es sólida. Enfóquese en precisión, estructuras avanzadas y producción oral/escrita con retroalimentación.",
+    ctaText: "Ir a Recursos de Consolidación",
+    ctaUrl: "https://stepuplanguages.com/centro-de-recursos"
   };
+}
+if (p >= 50) {
+  return {
+    title: "Ruta recomendada: Gramática funcional (Intermedio)",
+    desc: "Usted tiene una base útil, pero hay vacíos frecuentes. Trabaje tiempos verbales, conectores y estructuras comunes de trabajo.",
+    ctaText: "Ver ruta de Gramática Funcional",
+    ctaUrl: "https://stepuplanguages.com/diagnostico"
+  };
+}
+return {
+  title: "Ruta recomendada: Fundamentos (Básico)",
+  desc: "Usted necesita fortalecer estructuras base (to be, present simple, preguntas y negaciones). Con una ruta guiada, avanza más rápido.",
+  ctaText: "Agendar una llamada breve",
+  ctaUrl: "https://wa.me/573000000000?text=Hola%2C%20realic%C3%A9%20el%20test%20de%20gram%C3%A1tica%20y%20quisiera%20una%20recomendaci%C3%B3n%20de%20ruta."
+};
+
 }
 
 function showResult(){
@@ -152,3 +153,4 @@ function bind(){
     el("questionHint").textContent = "Verifica que questions.es.json exista en el repo.";
   }
 })();
+
