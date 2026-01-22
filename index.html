@@ -1,1 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Test de Gramática (MVP) — Step Up</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Test de Gramática (MVP)</h1>
+      <p class="sub">
+        Responde y obtén una recomendación inmediata de ruta.
+      </p>
+    </header>
 
+    <section id="card" class="card">
+      <div class="topbar">
+        <span id="progressText" class="muted">Pregunta 1/10</span>
+        <div class="progress">
+          <div id="progressBar" class="bar"></div>
+        </div>
+      </div>
+
+      <h2 id="questionTitle" class="qtitle">Cargando…</h2>
+      <p id="questionHint" class="muted"></p>
+
+      <div id="options" class="options"></div>
+
+      <div class="actions">
+        <button id="backBtn" class="btn ghost" disabled>Anterior</button>
+        <button id="nextBtn" class="btn" disabled>Siguiente</button>
+      </div>
+    </section>
+
+    <section id="result" class="card hidden">
+      <h2>Resultado</h2>
+      <p id="scoreText" class="score"></p>
+
+      <div class="resultBox">
+        <h3 id="routeTitle"></h3>
+        <p id="routeDesc" class="muted"></p>
+      </div>
+
+      <div class="actions">
+        <a id="ctaBtn" class="btn" href="#" target="_blank" rel="noopener">Continuar</a>
+        <button id="restartBtn" class="btn ghost">Reiniciar</button>
+      </div>
+
+      <p class="footer muted">
+        *Este test es diagnóstico inicial, no reemplaza una evaluación completa.
+      </p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
