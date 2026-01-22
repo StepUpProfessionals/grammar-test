@@ -96,7 +96,7 @@ return {
   title: "Ruta recomendada: Fundamentos (Básico)",
   desc: "Usted necesita fortalecer estructuras base (to be, present simple, preguntas y negaciones). Con una ruta guiada, avanza más rápido.",
   ctaText: "Agendar una llamada breve",
-  ctaUrl: "https://wa.me/573000000000?text=Hola%2C%20realic%C3%A9%20el%20test%20de%20gram%C3%A1tica%20y%20quisiera%20una%20recomendaci%C3%B3n%20de%20ruta."
+ctaUrl: "https://wa.me/573167850234?text=Hola%2C%20realic%C3%A9%20el%20test%20de%20gram%C3%A1tica%20y%20quisiera%20una%20recomendaci%C3%B3n%20de%20ruta."
 };
 
 }
